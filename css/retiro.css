@@ -1,0 +1,59 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    margin-top: 100px;
+    gap: 30px;
+    grid-template-rows: 1fr;
+    padding-bottom: 100px;
+
+}
+
+main {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    /* Divide en dos columnas de igual tamaño */
+    grid-template-rows: repeat(5, 90px);
+    justify-content: center;
+    /* Centra horizontalmente las columnas */
+    align-items: center;
+    /* Centra verticalmente los elementos dentro de las columnas */
+    text-align: center;
+    /* Centra el texto horizontalmente en cada botón */
+    gap: 10px;
+    place-items: center;
+
+}
+
+a {
+    background-color: blue; /* Cambia el color de fondo */
+    color: white; /* Cambia el color del texto */
+    padding: 12px 80px;
+    text-decoration: none; 
+    border-radius: 10px 0px 10px 0px; /* Bordes redondeados */
+  }
+
+  a:hover {
+    background-color: darkblue; /* Cambia el color de fondo al pasar el mouse sobre el botón */
+  }
+
+#logo {
+    padding-left: 500px;
+    height: 150px;
+}
+
+p {
+    padding-top: 20px;
+    font-size: 1.6rem;
+}
+.botongris{
+    background-color: gray; 
+    background: gray;
+    color: white; 
+}
+.botongris:hover{
+    background-color: rgb(66, 66, 66);
+}

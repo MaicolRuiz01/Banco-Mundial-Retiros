@@ -1,0 +1,25 @@
+#img{
+    display: grid;
+    place-items: center;
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+#contenedor{
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+a{
+    
+  padding: 10px 20px; /* Ajusta el padding según tus preferencias */
+  background-color: blue;
+  color: white;
+  text-decoration: none; /* Elimina el subrayado del enlace */
+  border-radius: 10px 0px 10px 0px; /* Bordes redondeados */
+  justify-self: center;
+  margin-top: 100px;
+  
+}
+a:hover {
+    background-color: darkblue; /* Cambia el color de fondo al pasar el mouse sobre el botón */
+  }
