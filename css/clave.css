@@ -1,0 +1,72 @@
+*{
+    font-family: 'Roboto', sans-serif;
+  }
+  header{
+    display: grid;
+    place-items: center;
+    gap: 20px;
+    padding-bottom: 30px;
+  }
+  main{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    place-items: center;
+
+  }
+  
+#botones-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    
+}
+#enlaces-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    
+}
+button{
+    background-color: blue; 
+    color: white; 
+    padding: 12px 80px;
+    
+    border-radius: 10px 0px 10px 0px; 
+    border: none;
+}
+button:hover{
+    background-color: darkblue; 
+}
+
+#cancelar{
+    background-color: gray; 
+    color: white; 
+    padding: 12px 80px;
+    text-decoration: none; 
+    border-radius: 10px 0px 10px 0px; 
+    grid-column: 1;
+
+}
+
+#cancelar:hover{
+    background-color: rgb(66, 66, 66);
+}
+a{
+    background-color: blue; /* Cambia el color de fondo */
+    color: white; /* Cambia el color del texto */
+    padding: 12px 80px;
+    text-decoration: none; 
+    border-radius: 10px 0px 10px 0px; /* Bordes redondeados */
+    
+}
+a:hover{
+    background-color: darkblue; 
+}
+input{
+    padding: 20px 110px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+

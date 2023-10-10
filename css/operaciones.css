@@ -30,7 +30,7 @@
     border-radius: 10px 0px 10px 0px; /* Bordes redondeados */
   }
   a:hover {
-    background-color: darkblue; /* Cambia el color de fondo al pasar el mouse sobre el botón */
+    background-color: darkblue; 
   }
 
   #logo{
